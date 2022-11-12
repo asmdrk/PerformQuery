@@ -1,14 +1,7 @@
-# CPSC 310 Project Repository
+# CPSC 310 Project, Query Engine
+# By Diwakar Gupta and Aaron Tsang  
 
-This repository contains starter code for the class project.
-Please keep your repository private.
-
-For information about the project, autotest, and the checkpoints, see the course webpage.
-
-## Configuring your environment
-
-To start using this project, you need to get your computer configured so you can build and execute the code.
-To do this, follow these steps; the specifics of each step (especially the first two) will vary based on which operating system your computer has:
+## Configuring your environment for the project
 
 1. [Install git](https://git-scm.com/downloads) (v2.X). After installing you should be able to execute `git --version` on the command line.
 
@@ -20,7 +13,7 @@ To do this, follow these steps; the specifics of each step (especially the first
 
 ## Project commands
 
-Once your environment is configured you need to further prepare the project's tooling and dependencies.
+Setup and running code:
 In the project folder:
 
 1. `yarn install` to download the packages specified in your project's *package.json* to the *node_modules* directory.
@@ -29,8 +22,12 @@ In the project folder:
 
 1. `yarn test` to run the test suite.
 
-1. `yarn pretty` to prettify your project code.
+## FAQ
 
-## Running and testing from an IDE
+- What is this project? What does it do?
+This is a query engine which parses data on UBC courses(from JSON files) and buildings(from HTML files) and then allows you to run queries on it. This was done as part of a group for CPSC310 at UBC. 
 
-IntelliJ Ultimate should be automatically configured the first time you open the project (IntelliJ Ultimate is a free download through their students program)
+## Functionality
+- Parse JSON/html files for information on UBC classes and buildings, and store that information locally. 
+- Run queries on the data, such as finding courses under a certain department with an average over 70 etc. 
+
