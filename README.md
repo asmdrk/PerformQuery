@@ -23,6 +23,7 @@ In the project folder:
 ## FAQ
 
 - What is this project? What does it do?
+
 This is a query engine which parses data on UBC courses(from JSON files) and buildings(from HTML files) and then allows you to run queries on it. This was done as part of a group for CPSC310 at UBC. 
 
 ## Functionality
